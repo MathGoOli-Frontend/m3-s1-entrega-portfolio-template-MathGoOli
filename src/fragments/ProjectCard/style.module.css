@@ -1,0 +1,18 @@
+.card{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2rem;
+
+    border: 1px solid var(--color-white);
+    border-radius: var(--round);
+    padding: 1.5rem;
+}
+
+.icon{
+    width: 3rem;
+    position: relative;
+    top: -8rem;
+    right: -43rem;
+}

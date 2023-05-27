@@ -3,7 +3,6 @@ import {TecnologyCard} from "../../fragments/TecnologyCard/index.jsx"
 import {technologies} from "../../data/technologies.js"
 
 export const Technologies = () => {
-    console.log(technologies[1])
     return(
         <section id="stack" className={style.stack}>
             <h2 className="title-2">Tecnologias</h2>
