@@ -75,7 +75,7 @@ a{
     font-size: var(--link-font);
     font-weight: var(--link-height);
     text-decoration: none;
-    
+    color: var(--color-purple);
 }
 a:hover{
     text-decoration: underline;
