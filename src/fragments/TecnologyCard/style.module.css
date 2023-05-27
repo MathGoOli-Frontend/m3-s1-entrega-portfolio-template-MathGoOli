@@ -1,9 +1,10 @@
 .card{
-    width: 200px;
+    width: 300px;
+    height: 6rem;
     
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    gap: 2rem;
     align-items: center;
 
     border: 1px solid var(--color-white);
