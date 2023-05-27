@@ -9,7 +9,7 @@ export const Welcome = () =>{
                <h2 className={style.autor__name}>JOSEDASILVA</h2>
                <h1 className="title-1">Bem Vindo ao meu portfólio</h1>
                <p>Uma Frase interessante sobre mim</p>
-               <AncorButton>Saiba Mais</AncorButton>
+               <AncorButton url="#">Saiba Mais</AncorButton>
             </div>
             <div className={style.card}>
                 <img className={style.welcome__image} src={img} alt="" />

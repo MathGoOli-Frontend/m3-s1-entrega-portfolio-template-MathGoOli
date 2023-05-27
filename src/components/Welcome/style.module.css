@@ -20,5 +20,12 @@
 }
 
 .welcome__image{
-    width: 48rem;
+    width: 100%;
+}
+
+@media(max-width: 600px) {
+    .welcome{
+        align-items: center;
+        justify-content: center;
+    }
 }

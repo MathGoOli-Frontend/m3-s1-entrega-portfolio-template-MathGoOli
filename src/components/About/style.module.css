@@ -1,0 +1,13 @@
+.deck{
+    display: flex;
+    
+}
+
+.card{
+    min-width: 25rem;
+}
+@media(max-width: 600px) {
+    .deck{
+        flex-wrap: wrap;
+    }
+}

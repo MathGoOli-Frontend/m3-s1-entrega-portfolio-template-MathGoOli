@@ -24,7 +24,11 @@
 
 .list__item{
     font-size: 1.4rem;
+}    
+.list__item-a{
+    color: var(--color-white);
 }
+
 
 @media (max-width: 600px){
     .header__container{

@@ -2,6 +2,7 @@
 
 :root{
     --color-purple: #6880FF;
+    --color-purple-hover: #6881ffcc;
     --color-white: #FFFFFFFF;
     --color-background: linear-gradient(to bottom, #0c0c0c 0%,#0c0c0c 100%);
 
@@ -44,7 +45,7 @@ body, html{
     height: 100vh;
 }
 
-button{
+a, button{
     cursor: pointer;
 }
 

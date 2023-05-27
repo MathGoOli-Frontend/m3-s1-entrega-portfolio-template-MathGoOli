@@ -10,12 +10,12 @@ export const Header = () => {
             <img className={style.header__logo} src={logo} alt="" />
             <nav>
                 <ul className={style.list__container}>
-                    <li className={style.list__item}><a>Sobre</a></li>
-                    <li className={style.list__item}><a>Stack</a></li>
-                    <li className={style.list__item}><a>Projetos</a></li>
+                    <li className={style.list__item}><a className={style["list__item-a"]}>Sobre</a></li>
+                    <li className={style.list__item}><a className={style["list__item-a"]}>Stack</a></li>
+                    <li className={style.list__item}><a className={style["list__item-a"]}>Projetos</a></li>
                 </ul>
             </nav>
-            <AncorButton url="#" text="teste">Contato</AncorButton>
+            <AncorButton url="#" >Contato</AncorButton>
         </header>
     )
 }
