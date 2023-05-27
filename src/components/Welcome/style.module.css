@@ -2,3 +2,23 @@
     color: var(--color-purple);
     font-size: 1.5rem;
 }
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 48rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-bottom: 4rem;
+}
+
+.welcome__image{
+    width: 48rem;
+}
