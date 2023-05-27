@@ -5,6 +5,24 @@
     --color-white: #FFFFFFFF;
     --color-background: linear-gradient(to bottom, #0c0c0c 0%,#0c0c0c 100%);
 
+    --title-1-font: 4.8rem;
+    --title-1-height: 700;
+
+    --title-2-font: 4rem;
+    --title-2-height: 600;
+
+    --title-3-font: 2.2rem;
+    --title-3-height: 700;
+
+    --label-font: 1.4rem;
+    --label-height: 400;
+
+    --link-font: 1.6rem;
+    --link-height: 700;
+
+    --paragraf-font: 1.6rem;
+    --paragraf-height: 700;
+
     --round: 1rem;
 
     font-size: 62.5%;
@@ -38,3 +56,33 @@ body {
 main{
     padding: 3rem 10vw;
 }
+
+.title-1{
+    font-size: var(--title-1-font);
+    font-weight: var(--title-1-height);
+}
+
+.title-2{
+    font-size: var(--title-2-font);
+    font-weight: var(--title-2-height);
+}
+
+.title-3{
+    font-size: var(--title-3-font);
+    font-weight: var(--title-3-height);
+}
+a{
+    font-size: var(--link-font);
+    font-weight: var(--link-height);
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: var(--paragraf-font);
+    font-weight: var(--paragraf-height);
+}
+
