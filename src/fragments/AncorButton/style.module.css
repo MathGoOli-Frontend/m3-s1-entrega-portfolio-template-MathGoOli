@@ -1,0 +1,14 @@
+.btn{
+    display: flex;
+    width: 11.4rem;
+    height: 3.9rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    background-color: var(--color-purple);
+    font-size: 1.4rem;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: var(--round);
+
+}

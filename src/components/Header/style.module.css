@@ -1,0 +1,39 @@
+.header__container{
+    height: 10vh;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__logo{
+    width: 10rem;
+
+}
+
+.list__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    list-style: none;
+    gap: 3rem;
+}
+
+.list__item{
+    font-size: 1.4rem;
+}
+
+@media (max-width: 600px){
+    .header__container{
+        padding-top: 1rem;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+}
