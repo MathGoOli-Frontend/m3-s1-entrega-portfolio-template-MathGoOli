@@ -4,7 +4,7 @@ import {ProjectCard} from "../../fragments/ProjectCard/index.jsx"
 
 export const Projects = () => {
     return (
-        <section id="projects" >
+        <section id="projects" className={style.projects} >
             <h2 className="title-2">Projetos</h2>
             <div>
                 <ul className={style.deck}>

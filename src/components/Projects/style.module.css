@@ -1,3 +1,10 @@
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .deck{
     display: flex;
     flex-wrap: wrap;
