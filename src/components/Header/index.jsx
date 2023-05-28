@@ -1,5 +1,5 @@
 import style from "./style.module.css"
-import logo from  "../../assets/portfolio.svg"
+import logo from  "../../assets/portfolio.png"
 
 import {AncorButton} from "../../fragments/AncorButton/index.jsx"
 
